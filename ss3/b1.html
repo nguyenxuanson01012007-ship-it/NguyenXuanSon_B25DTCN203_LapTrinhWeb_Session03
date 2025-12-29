@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuan Son</title>
+</head>
+<body>
+   <h1><b>Form Đặt Lịch Tư Vấn Học Tập</b></h1>
+    <form action="http://www.mysever.com" method ="post">
+        <div>
+            <label for="name">Họ và tên</label>
+            <input
+                type="text"
+                name ="name"
+                id="name"
+            />
+        </div>
+
+        </br>
+
+        <div>
+            <label>Chọn ngày và giời:</label>
+            <input 
+                type="datetime-local"
+                name="date"
+            />
+        </div>
+
+        </br>
+
+        <div>
+            <label for="chose">Loại dịch vụ :</label>
+            <select name="chose">
+                <option value="study">Tư vấn học tập</option>
+                <option value="career">Hướng nghiệp</option>
+            </select>
+        </div>
+        
+        </br>
+
+        <div>
+            <label for="note">Ghi chú</label>
+            <textarea name="note" id="note" cols="15" rows="3"></textarea>
+        </div>
+    </br>
+        <button>Đặt lịch</button>
+    </form>
+        
+    </tbody>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XuanSon</title>
+  </head>
+  <body>
+    <form action="http://www.mysever.com" method="post"></form>
+    <table>
+      <tr>
+        <td><label for="fullname">Họ và tên</label></td>
+        <td><input type="text" id="fullname" /></td>
+      </tr>
+      <tr>
+        <td><label for="brithday">Ngày sinh</label></td>
+        <td><input type="date" id="brithday" /></td>
+      </tr>
+      <tr>
+        <td><label for="sex">Giới tính</label></td>
+        <td>
+          <label for="nam">Nam</label>
+          <input type="radio" id="sex" name="sex" />
+
+          <label for="nu">Nữ</label>
+          <input type="radio" id="sex" name="sex" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="numerber">Số điện thoại</label></td>
+        <td>
+          <input
+            type="tel"
+            id="number"
+            name="number"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" id="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td><label for="namecongty">Tên công ty</label></td>
+        <td><input type="text" id="namecongty" name="namecongty" /></td>
+      </tr>
+      <tr>
+        <td><label for="role">Vai trò trong công ty</label></td>
+        <td>
+          <select name="role" id="role">
+            <option value="Giám đốc điều hành (CEO)">Giám đốc điều hành (CEO)</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+         <td><label for="quymo">Quy mô công ty</label></td>
+        <td>
+          <select name="quymo" id="quymo">
+            <option value="nho">Doanh nghiệp nhỏ</option>
+            <option value="lon">Doanh nghiệp lớn</option>
+          </select>
+      </tr>
+      <tr>
+        <td><label for="congty">Ngành nghề công ty</label></td>
+        <td><input type="text" id="congty" name="congty" /></td>
+      </tr>
+      <tr>
+        <td><label for="lydo">Lý do tham gia câu lạc bộ</label></td>
+        <td><textarea name="lydo" id="lydo"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="bot">Kinh nghiệm lãnh đạo</label></td>
+        <td><textarea name="bot" id="bot"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="target">Mục tiêu khi tham gia câu lạc bộ</label></td>
+        <td><textarea name="target" id="target"></textarea></td>
+      </tr>
+       <tr>
+        <td><label for="even">Chương trình sự kiện muốn tham gia</label></td>
+        <td>
+          <input type="checkbox" id="networking" />
+          <label for="networking">Networking</label>
+
+          <input type="checkbox" id="workshop" />
+          <label for="workshop">Workshop</label>
+
+          <input type="checkbox" id="seminar" />
+          <label for="seminar">Hội thảo</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="register">Đăng ký nhận bản tin</label></td>
+        <td><input type="checkbox" id="register" /></td>
+      </tr>
+      <tr>
+        <td><button>Đăng ký hội viên</button></td>
+      </tr>
+      </table>
+    </form>
+  </body>
+</html>

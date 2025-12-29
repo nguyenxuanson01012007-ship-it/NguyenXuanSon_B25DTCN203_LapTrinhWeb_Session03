@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xuan Son</title>
+  </head>
+  <body>
+    <form action="http://www.mysever.com" method="post">
+      <table>
+        <tr>
+          <td>
+            <b><label for="name">Họ và tên</label></b>
+          </td>
+          <td><input type="text" id="name" name="name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="email">Email</label></b>
+          </td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="birth">Ngày sinh</label></b>
+          </td>
+          <td><input type="date" id="birth" name="birth" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Giới tính</b></label>
+          </td>
+          <td>
+            <label for="nam">Nam</label>
+            <input type="radio" id="nam" name="nam" />
+
+            <label for="nu">Nữ</label>
+            <input type="radio" id="nu" name="nu" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="phone">Số điện thoại</label></b>
+          </td>
+          <td>
+            <input
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              id="phone"
+              name="phone"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="specialized">Chuyên ngành</label></b>
+          </td>
+          <td><input type="text" id="specialized" name="specialized" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="year">Năm nhập học</label></b>
+          </td>
+          <td><input type="number" id="year" name="year" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="GPA">Điểm GPA</label></b>
+          </td>
+          <td>
+            <input type="number" id="GPA" name="GPA" size="2" min="0" max="2" />
+          </td>
+        </tr>
+        <tr>
+          <td><b>Địa chỉ</b></td>
+          <td>
+            <textarea name="Address" id="Address" rows="3" cols="15"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="class">Lớp học</label></b>
+          </td>
+          <td>
+            <select name="class" id="class">
+              <option value="Lớp 1">Lớp 1</option>
+              <option value="Lớp 2">Lớp 2</option>
+              <option value="Lớp 3">Lớp 3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><label for="day">Ngày đăng ký học</label></b>
+          </td>
+          <td><input type="datetime-local" id="day" name="day" /></td>
+        </tr>
+      </table>
+      <tr>
+        <button>Gửi thông tin</button>
+      </tr>
+    </form>
+  </body>
+</html>
